@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seidenberg Scholars — Home</title>
+<meta name="description" content="The hub for Seidenberg Scholars at Pace University: upcoming events, program benefits, and coordinator contacts.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="index.html">
+      <span class="w1">Seidenberg</span>
+      <span class="w2">SCHOLARS</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About the Program</a></li>
+        <li><a href="professional-development.html">Professional Development</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">PACE UNIVERSITY · SEIDENBERG SCHOOL OF CSIS</p>
+      <h1>The home base for Seidenberg Scholars.</h1>
+      <p class="lede">Upcoming events, program info, and the people to contact — all in one place, kept current for you and the Scholars who come after you.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="events.html">See upcoming events</a>
+        <a class="btn btn-outline" href="about.html">About the program</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Upcoming events</h2>
+        <a class="view-all" href="events.html">View all events</a>
+      </div>
+      <div id="home-events">
+        <div class="empty-state">Loading events…</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="border-bottom:none;">
+    <div class="wrap two-col">
+      <div>
+        <h2>What Scholars are part of</h2>
+        <p>Seidenberg Scholars is a selective, cohort-based enrichment program for students who want a community centered on computer science, IT, and IS at Pace. Through specialized courses, workshops, and networking, Scholars shape their Pace Path and build their professional portfolio alongside a cohort of motivated peers in technology.</p>
+        <p>Scholars are expected to attend the majority of workshops and events, and to represent the school at events for prospective students.</p>
+        <a class="btn btn-line" href="about.html">Full program details &amp; benefits</a>
+      </div>
+      <div class="rule-card">
+        <h3>Have questions or need to reach a coordinator?</h3>
+        <p>Jill Olimpieri (PLV campus) and Rachel Schwartz (NYC campus) coordinate Scholars day to day, and Dean Li-Chiou Chen leads the Seidenberg School.</p>
+        <a class="btn btn-line btn-small" href="contact.html">Contact directory</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Seidenberg Scholars · Pace University</span>
+    <span><a href="https://www.pace.edu" target="_blank" rel="noopener">pace.edu</a></span>
+  </div>
+</footer>
+
+<script src="js/events.js"></script>
+<script>
+  ScholarsEvents.loadEvents("#home-events", { upcomingOnly: true, limit: 3 });
+</script>
+</body>
+</html>

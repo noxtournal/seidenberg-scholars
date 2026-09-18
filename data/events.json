@@ -1,0 +1,42 @@
+[
+  {
+    "id": "scholars-choice-2026-10-15",
+    "title": "Scholars Choice Event",
+    "date": "2026-10-15",
+    "startTime": "16:35",
+    "endTime": "18:00",
+    "location": "15 Beekman St, Room 1010, NYC Campus",
+    "audience": "All Scholars",
+    "description": "Details on this event are coming soon — check back closer to the date."
+  },
+  {
+    "id": "pace-giving-2026-11-19",
+    "title": "Pace Giving",
+    "date": "2026-11-19",
+    "startTime": "17:00",
+    "endTime": "19:00",
+    "location": "15 Beekman St, 9th Floor, NYC Campus",
+    "audience": "All Scholars",
+    "description": "Join fellow Scholars for Pace Giving."
+  },
+  {
+    "id": "thanksgiving-seidenberg-2026",
+    "title": "Seidenberg Thanksgiving Event",
+    "date": null,
+    "startTime": null,
+    "endTime": null,
+    "location": "TBA",
+    "audience": "All Seidenberg",
+    "description": "A Thanksgiving-themed event open to all of Seidenberg. Date, time, and location to be announced."
+  },
+  {
+    "id": "ibm-visit-2026-12-04",
+    "title": "IBM Visit (PLV Scholars)",
+    "date": "2026-12-04",
+    "startTime": null,
+    "endTime": null,
+    "location": "PLV Campus",
+    "audience": "PLV Scholars",
+    "description": "Scholars from the PLV campus will visit IBM. Time to be announced."
+  }
+]

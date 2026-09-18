@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events — Seidenberg Scholars</title>
+<meta name="description" content="Upcoming Seidenberg Scholars events, with one-click Google Calendar and Outlook add buttons.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="index.html">
+      <span class="w1">Seidenberg</span>
+      <span class="w2">SCHOLARS</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html" aria-current="page">Events</a></li>
+        <li><a href="about.html">About the Program</a></li>
+        <li><a href="professional-development.html">Professional Development</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Events</h1>
+      <p>Workshops, mixers, and school events for the cohort. Add any event straight to your calendar — the buttons work for both Google Calendar and Outlook.</p>
+    </div>
+  </section>
+
+  <section class="section" style="border-bottom:none;">
+    <div class="wrap">
+      <div id="events-list">
+        <div class="empty-state">Loading events…</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Seidenberg Scholars · Pace University</span>
+    <span><a href="https://www.pace.edu" target="_blank" rel="noopener">pace.edu</a></span>
+  </div>
+</footer>
+
+<script src="js/events.js"></script>
+<script>
+  ScholarsEvents.loadEvents("#events-list");
+</script>
+</body>
+</html>

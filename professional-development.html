@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Development — Seidenberg Scholars</title>
+<meta name="description" content="Conventions, conferences, and professional development opportunities in NYC for Seidenberg Scholars.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="index.html">
+      <span class="w1">Seidenberg</span>
+      <span class="w2">SCHOLARS</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About the Program</a></li>
+        <li><a href="professional-development.html" aria-current="page">Professional Development</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Professional Development</h1>
+      <p>Conventions, conferences, and other professional development opportunities around NYC worth checking out as a Scholar.</p>
+    </div>
+  </section>
+
+  <section class="section" style="border-bottom:none;">
+    <div class="wrap">
+      <div id="pd-links">
+        <div class="empty-state">Loading…</div>
+      </div>
+      <p style="margin-top:24px;"><em>Know of a conference or opportunity that should be listed here? See the site README for how to add it — it takes under a minute.</em></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Seidenberg Scholars · Pace University</span>
+    <span><a href="https://www.pace.edu" target="_blank" rel="noopener">pace.edu</a></span>
+  </div>
+</footer>
+
+<script src="js/prof-dev.js"></script>
+<script>
+  ScholarsProfDev.loadProfDev("#pd-links");
+</script>
+</body>
+</html>
